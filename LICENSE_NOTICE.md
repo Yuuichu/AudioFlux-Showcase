@@ -2,9 +2,7 @@
 
 ## AudioFlux
 
-The full AudioFlux repository is private, and no licence file is included in this showcase.
-
-**Therefore this showcase deliberately makes no licence claim.** If the middleware is MIT-licensed, the canonical `LICENSE` file should be added to the main repository first, and this notice updated to match. Do not treat the absence of a licence here as permission to reuse the code.
+Released under the **MIT licence** (`Copyright (c) 2026 Yuuichu`). The full licence text is included in this showcase as `LICENSE`, and the same file lives in the private development repository.
 
 ## Third-party components
 
