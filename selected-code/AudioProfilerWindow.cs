@@ -9,7 +9,7 @@ namespace AudioFlux.Tools
 {
     /// <summary>
     /// 音频 Profiler 窗口
-    /// 参考 Wwise AudioStudio 的 Profiler 设计
+    /// 参考成熟音频中间件的 Profiler 设计
     /// Log 视图：时序事件日志
     /// Voice Monitor 视图：实时活跃实例计数（类似 Wwise F6）
     /// </summary>
