@@ -2,7 +2,6 @@
 
 A self-built Unity audio middleware that replaces scattered `AudioSource` calls with an Event / Switch / State / RTPC data-driven model, built around two hard constraints: a zero-allocation runtime and a first-class editor toolchain.
 
-<!-- Hero image: see screenshots/README.md -->
 
 ## Why I Built This
 
@@ -44,12 +43,6 @@ A designer authors event libraries, mixer snapshots and emitter presets as asset
 - **Profiling that costs nothing in release:** profiler instrumentation is guarded by `[Conditional("UNITY_EDITOR")]`, so release builds compile the calls out entirely.
 - **Editor tooling:** `AudioProfilerWindow` (log view and voice monitor), `AudioEmitterEditor`, `SegmentScenePrefabScanner`, `AudioEmitterBatchAttacher`, `AudioEventLibraryImporter`.
 
-## Demo
-
-No screenshots are included in this draft yet — see `screenshots/README.md` for what should be captured and why.
-
-Selected source is in `selected-code/` (playback facade, handle, event registry, music state manager, source pool, spatial emitter, editor profiler window).
-
 ## Architecture
 
 ```text
@@ -85,7 +78,7 @@ Sole designer and developer: audio architecture, runtime, data model, editor too
 
 This is a portfolio showcase repository. The full development repository remains private.
 
-Included: a curated set of runtime and editor sources, plus architecture documentation. Excluded: project-specific configuration assets, internal path configuration, project/tooling scripts tied to a specific production project, AI-assistant instruction files, and all game audio content.
+Included: a curated set of runtime and editor sources in `selected-code/` (playback facade, handle, event registry, music state manager, source pool, spatial emitter, editor profiler window), plus architecture documentation. Excluded: project-specific configuration assets, internal path configuration, project/tooling scripts tied to a specific production project, AI-assistant instruction files, and all game audio content.
 
 ## Tech Stack
 
