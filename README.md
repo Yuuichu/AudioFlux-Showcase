@@ -2,7 +2,6 @@
 
 A self-built Unity audio middleware that replaces scattered `AudioSource` calls with an Event / Switch / State / RTPC data-driven model, built around two hard constraints: a zero-allocation runtime and a first-class editor toolchain.
 
-
 ## Why I Built This
 
 Game audio in Unity usually degrades into `AudioSource` instances scattered across gameplay scripts: who owns the source, who stops it, what happens on scene change, and why a sound is still playing after the object is destroyed are all answered implicitly and inconsistently. Commercial middleware solves this, but it also dictates the pipeline, the asset format and the licence.
