@@ -1,5 +1,7 @@
 # AudioFlux
 
+> **English** | [简体中文](README.zh-CN.md)
+
 A self-built Unity audio middleware that replaces scattered `AudioSource` calls with an Event / Switch / State / RTPC data-driven model, built around two hard constraints: a zero-allocation runtime and a first-class editor toolchain.
 
 ## Why I Built This

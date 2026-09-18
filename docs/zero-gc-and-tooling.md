@@ -1,5 +1,7 @@
 # Zero-GC runtime and editor tooling
 
+> **English** | [简体中文](zero-gc-and-tooling.zh-CN.md)
+
 Two constraints shaped almost every design decision in AudioFlux: the runtime hot path must not allocate, and the editor toolchain must be good enough that a designer never has to open a script to find out what audio is doing.
 
 ## Why zero-GC, concretely

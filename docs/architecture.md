@@ -1,5 +1,7 @@
 # Architecture
 
+> **English** | [简体中文](architecture.zh-CN.md)
+
 AudioFlux separates **what should play** (authored data) from **how it plays** (runtime), and keeps gameplay code away from `AudioSource` and mixer internals.
 
 ## Layers
